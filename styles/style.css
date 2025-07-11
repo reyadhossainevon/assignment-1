@@ -214,3 +214,32 @@
     font-size: 15px;
 }
 
+/* what our user say section */
+.user-review{
+    height: 342px;
+    width: 1140px;
+    margin-left: 210px;
+}
+
+.user-review-heading{
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 400px;
+    
+    
+}
+.user-cards{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 30px;
+    
+}
+.fast-card{
+    padding: 24px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px rgba(9, 9, 9, 0.1);
+}
+
