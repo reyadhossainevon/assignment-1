@@ -87,7 +87,7 @@
     max-width: 700px;
 }
 
-.banner-section .stay-focused-btn {
+.banner-section .stay-focused-btn  {
     background-color: #6a5acd;
     color: #ffffff;
     padding: 15px 40px;
@@ -149,7 +149,11 @@
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.3s ease;
+ transition: background-color 0.3s ease;
+    }
 
+    .launce-live-preview-btn:hover {
+        background-color: #5b4ac8;
 }
 
 .action-img {
@@ -196,50 +200,241 @@
     margin: 0 auto;
     align-items: center;
 }
-.active{
-    font-size: 50px;
-    color: #4E47FF;
-}
-.focous{
+
+.active {
     font-size: 50px;
     color: #4E47FF;
 }
 
-.satisfaction{
+.focous {
     font-size: 50px;
     color: #4E47FF;
 }
-.shared{
+
+.satisfaction {
+    font-size: 50px;
+    color: #4E47FF;
+}
+
+.shared {
     color: #383636fc;
     font-size: 15px;
 }
 
 /* what our user say section */
-.user-review{
+.user-review {
     height: 342px;
     width: 1140px;
     margin-left: 210px;
 }
 
-.user-review-heading{
+.user-review-heading {
     font-size: 32px;
     font-weight: bold;
     margin-top: 100px;
     margin-left: 400px;
-    
-    
+
+
 }
-.user-cards{
+
+.user-cards {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
     padding: 30px;
-    
+
 }
-.fast-card{
+
+.fast-card {
     padding: 24px;
     background-color: white;
     border-radius: 5px;
     box-shadow: 4px 4px 4px rgba(9, 9, 9, 0.1);
+    
+}
+.pic-info {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 15px;
 }
 
+/* ready-to-focus-section */
+.get-started-free-btn {
+    background-color: #6a5acd;
+    color: #ffffff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 4px 4px 4px rgba(183, 30, 30, 0.1);
+    margin-bottom: 50px;
+transition: box-shadow 0.3s ease;
+    }
+
+    .get-started-free-btn:hover {
+        background-color: #5b4ac8;
+        box-shadow: 6px 6px 12px rgba(106, 90, 205, 0.2);
+    }
+
+.ready-to-focus-section {
+    height: 698px;
+    width: 1140px;
+    margin-top: 100px;
+    margin-left: 250px;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+
+    padding: 100px;
+
+
+}
+.ready-focous-heading{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.ready-to-focus-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 280px;
+    
+}
+
+/* Let’s Get in Touch Section Styles */
+
+.contact-section {
+
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 150px;
+    flex-wrap: wrap;
+
+
+
+}
+
+.contact-content {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    text-align: left;
+}
+
+.contact-content h2 {
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+    margin-top: 150px;
+
+
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-form input[type="email"],
+.contact-form input[type="text"],
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-form .send-btn {
+    background-color: #6a5acd;
+    color: #ffffff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+    align-self: stretch;
+    height: 50px;
+    width: 535px;
+
+}
+
+.contact-form .send-btn:hover {
+    background-color: #5b4ac8;
+}
+
+/* Footer Sectiion */
+
+
+.footer-logo {
+    color: #4E47FF;
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+
+.footer-in-div {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.footer-pera {
+    color: #8987A1;
+}
+footer nav ul li{
+    list-style: none;
+}
+footer nav ul li a{
+    text-decoration: none;
+  
+}
+.dark-2{
+    color: #8987A1;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+}
