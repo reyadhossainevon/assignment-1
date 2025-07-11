@@ -1,0 +1,117 @@
+/* text check style */
+.raleway-normal {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.inter-normal {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+/* Banner Styles */
+
+.hero-section {
+    width: 100%;
+    min-height: 600px;
+    background-image: url('../Assets/Hero-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    color: #ffffff;
+    line-height: 0;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.navbar .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.logo {
+    color: #4E47FF;
+    margin-left: 100px;
+    font-size: 70px;
+    font-weight: bold
+}
+
+.navbar .sign-up-btn {
+    background-color: #6a5acd;
+    /* Purple button */
+    color: #ffffff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .sign-up-btn:hover {
+    background-color: #5b4ac8;
+}
+
+.sign-up-btn {
+    margin-right: 150px;
+}
+
+.banner-section {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.banner-section h1 {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.banner-section .stay-focused-btn {
+    background-color: #6a5acd;
+    color: #ffffff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.banner-section .stay-focused-btn:hover {
+    background-color: #5b4ac8;
+}
+
+.banner-main {
+    color: #252432;
+}
+
+.banner-main-after {
+    color: #252432;
+    line-height: 0;
+
+}
+
+
+
