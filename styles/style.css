@@ -159,3 +159,58 @@
 
 }
 
+/* Joined User Section */
+
+.joined-user-section {
+    background-color: #c7c7d7;
+    height: 306px;
+    width: 1140px;
+    margin-top: 150px;
+    margin-left: 190px;
+    margin-right: 159px;
+    display: flex;
+    border-radius: 20px;
+}
+
+.joined-section-header {
+    justify-content: center;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-right: 300px;
+
+
+}
+
+.joined-user-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.joined-user-stats {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: center;
+}
+.active{
+    font-size: 50px;
+    color: #4E47FF;
+}
+.focous{
+    font-size: 50px;
+    color: #4E47FF;
+}
+
+.satisfaction{
+    font-size: 50px;
+    color: #4E47FF;
+}
+.shared{
+    color: #383636fc;
+    font-size: 15px;
+}
+
