@@ -114,4 +114,48 @@
 }
 
 
+/* Action Section */
+.action-section-container {
+    display: flex;
+    height: 328px;
+    width: 1140px;
+    margin-top: 150px;
+    margin-left: 195px;
+    margin-right: 159px;
+    justify-content: space-between;
+
+}
+
+.heading-action {
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.pera {
+    color: #252432;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 0;
+
+}
+
+.launce-live-preview-btn {
+    background-color: #6a5acd;
+    color: #ffffff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+}
+
+.action-img {
+    border-radius: 80px;
+    height: 328px;
+    width: 403px;
+
+}
 
