@@ -260,6 +260,9 @@
 }
 
 /* ready-to-focus-section */
+.ready-focous-img{
+    border-radius: 30px;
+}
 .get-started-free-btn {
     background-color: #6a5acd;
     color: #ffffff;
